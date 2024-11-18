@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.22)  31 OCT 2024 15:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.22)  18 NOV 2024 17:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -400,7 +400,17 @@ Package: soul-ori 2023-06-14 v3.1 letterspacing/underlining (mf)
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 ) (/usr/local/texlive/2024/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
-)) (/Users/lenavo/Desktop/3.Semester/Mikroökonomie/main.aux)
+)) (/Users/lenavo/Desktop/3.Semester/Mikroökonomie/main.aux
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
@@ -527,25 +537,51 @@ File: /Users/lenavo/Desktop/3.Semester/Mikroökonomie/img/grenznutzen.png Graph
 <use /Users/lenavo/Desktop/3.Semester/Mikroökonomie/img/grenznutzen.png>
 Package pdftex.def Info: /Users/lenavo/Desktop/3.Semester/Mikroökonomie/img/grenznutzen.png  used on input line 221.
 (pdftex.def)             Requested size: 193.47578pt x 158.47179pt.
- [5 </Users/lenavo/Desktop/3.Semester/Mikroökonomie/img/grenznutzen.png (PNG copy)>] [6] (/Users/lenavo/Desktop/3.Semester/Mikroökonomie/main.aux)
+ [5 </Users/lenavo/Desktop/3.Semester/Mikroökonomie/img/grenznutzen.png (PNG copy)>] [6]
+</Users/lenavo/Desktop/3.Semester/Mikroökonomie/img/optnachf.png, id=43, 458.71375pt x 141.52875pt>
+File: /Users/lenavo/Desktop/3.Semester/Mikroökonomie/img/optnachf.png Graphic file (type png)
+<use /Users/lenavo/Desktop/3.Semester/Mikroökonomie/img/optnachf.png>
+Package pdftex.def Info: /Users/lenavo/Desktop/3.Semester/Mikroökonomie/img/optnachf.png  used on input line 301.
+(pdftex.def)             Requested size: 241.84843pt x 74.61899pt.
+ [7 </Users/lenavo/Desktop/3.Semester/Mikroökonomie/img/optnachf.png>]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 400--401
+[][] 
+ []
+
+[8]
+</Users/lenavo/Desktop/3.Semester/Mikroökonomie/img/engelskurve.png, id=52, 1098.1025pt x 616.3025pt>
+File: /Users/lenavo/Desktop/3.Semester/Mikroökonomie/img/engelskurve.png Graphic file (type png)
+<use /Users/lenavo/Desktop/3.Semester/Mikroökonomie/img/engelskurve.png>
+Package pdftex.def Info: /Users/lenavo/Desktop/3.Semester/Mikroökonomie/img/engelskurve.png  used on input line 404.
+(pdftex.def)             Requested size: 241.84843pt x 135.72803pt.
+</Users/lenavo/Desktop/3.Semester/Mikroökonomie/img/slutzky.png, id=53, 576.1525pt x 133.49875pt>
+File: /Users/lenavo/Desktop/3.Semester/Mikroökonomie/img/slutzky.png Graphic file (type png)
+<use /Users/lenavo/Desktop/3.Semester/Mikroökonomie/img/slutzky.png>
+Package pdftex.def Info: /Users/lenavo/Desktop/3.Semester/Mikroökonomie/img/slutzky.png  used on input line 432.
+(pdftex.def)             Requested size: 290.22107pt x 67.24826pt.
+ [9 </Users/lenavo/Desktop/3.Semester/Mikroökonomie/img/engelskurve.png> </Users/lenavo/Desktop/3.Semester/Mikroökonomie/img/slutzky.png>] (/Users/lenavo/Desktop/3.Semester/Mikroökonomie/main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 15587 strings out of 474116
- 312737 string characters out of 5743682
- 1951187 words of memory out of 5000000
- 37694 multiletter control sequences out of 15000+600000
+ 15622 strings out of 474116
+ 314517 string characters out of 5743682
+ 1952187 words of memory out of 5000000
+ 37729 multiletter control sequences out of 15000+600000
  561383 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,13n,93p,666b,489s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on /Users/lenavo/Desktop/3.Semester/Mikroökonomie/main.pdf (7 pages, 213467 bytes).
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on /Users/lenavo/Desktop/3.Semester/Mikroökonomie/main.pdf (10 pages, 453180 bytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
+ 119 PDF objects out of 1000 (max. 8388607)
+ 71 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,9 +1,10 @@
 \babel@toc {german}{}\relax 
 \contentsline {section}{\numberline {1}Einführung}{2}{}%
-\contentsline {section}{\numberline {2}Vorlesung 1}{2}{}%
+\contentsline {section}{\numberline {2}Die Nachfrageseite}{2}{}%
 \contentsline {subsection}{\numberline {2.1}Motivation}{2}{}%
 \contentsline {subsection}{\numberline {2.2}Budget}{2}{}%
 \contentsline {subsection}{\numberline {2.3}Präferenzen und Nutzen}{3}{}%
 \contentsline {subsection}{\numberline {2.4}Individuelle Nachfrage}{6}{}%
-\contentsline {section}{\numberline {3}Übung 1 - Nachfrage}{6}{}%
-\contentsline {subsection}{\numberline {3.1}Aufgabe 1: Budgetmengen}{6}{}%
+\contentsline {subsection}{\numberline {2.5}Eigenschaften der individuellen Nachfrage}{8}{}%
+\contentsline {subsubsection}{\numberline {2.5.1}Einkommens-Expansionspfade, Engel-Kurven und Gütertypen}{8}{}%
+\contentsline {subsubsection}{\numberline {2.5.2}Die Slutsky-Zerlegung}{9}{}%

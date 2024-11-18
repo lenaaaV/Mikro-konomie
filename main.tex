@@ -66,7 +66,7 @@
 Mikroökonomik ist ein Teilbereich der Wirtschaftswissenschaften, der sich mit dem Verhalten von Individuen und Unternehmen sowie deren Interaktionen auf Märkten beschäftigt. Im Mittelpunkt stehen die Entscheidungsprozesse von Haushalten und Unternehmen, die Preisbildung auf Märkten sowie die Allokation knapper Ressourcen. Mikroökonomik analysiert, wie diese Akteure ihre Entscheidungen unter Berücksichtigung von Knappheit und Anreizen treffen, und untersucht die Auswirkungen dieser Entscheidungen auf Angebot und Nachfrage, Marktgleichgewichte und die Verteilung von Ressourcen.
 
 
-\section{Vorlesung 1}
+\section{Die Nachfrageseite}
 \subsection{Motivation}
 
 \textbf{Aggregierte Nachfrage}
@@ -262,25 +262,176 @@ Substitution)
     \item man muss also immer mehr von einem Gut aufgeben, um den Nutzen durch Konsum des anderen Gutes konstant zu halten
 \end{itemize}
 \subsection{Individuelle Nachfrage}
+\begin{itemize}
+    \item beschäftigt sich nur mit Konsument
+\end{itemize}
+\textbf{Der Lagrange-Ansatz}
+\begin{itemize}
+    \item Problem: Güterbündel finden, mit dem wir den \hl{Nutzen maximieren} (unter Einhaltunf der Budgetbedingung):
+            \[
+            \max_{x} \quad u(x) \quad \text{u.d.N.} \quad x'p \leq m
+            \]
 
-\section{Übung 1 - Nachfrage}
-\subsection{Aufgabe 1: Budgetmengen}
-\textbf{Budgetmenge:}
-\begin{equation}
-     x'p = p_1 x_1 + p_2 x_2 \leq m
-\end{equation}
-\begin{equation}
-    x'p = 10 * x_1 + 5 * x_2 \leq 40
-\end{equation}
-\textbf{Budgetgerade:}
-\begin{equation}
-    x_2 = \frac{m}{p_2} - \frac{p_1}{p_2}x_1
-\end{equation}
-\begin{equation}
-    x_2 = \frac{40}{5} - \frac{10}{5} * x_1
-\end{equation}
+    \item wir verwenden die \hl{Lagrange-Methode} mit Multiplikator $\lambda$:
+            \[
+                \max_{x, \lambda} \quad \mathcal{L} = u(x) + \lambda(m - x'p)
+            \]
+            \begin{itemize}
+                \item Zielfunktion + Nebenbedingung 
+                \item wenig Budget $\rightarrow$ Lambda sehr groß, viel Budget $\rightarrow$ Lambda sehr klein
+            \end{itemize}
 
 
+    \item \hl{notwendigen Bedingung erster Ordnung} finden $\rightarrow$ nach $x_i$ ableiten
+    \item die notwendigen Bedingungen erster Ordnung geben uns ein \hl{Gleichungssystem}, das wir für $x^*$, $\lambda^*$ lösen können
+                \[
+\frac{\partial u(\cdot)}{\partial x_i} \bigg|_{x^*} = MU_i \bigg|_{x^*} = \lambda^* p_i \quad \forall i
+\]
+\[
+m = x^{*'} p
+\]
+    \item alle Optimalen Lösungen mit einem * kennzeichnen
+\end{itemize}
+\textbf{Optimale Nachfrage}
+\begin{itemize}
+    \item dividieren wir die Bedingungen erster Ordnung für zwei Güter $i$ und $j$ durcheinander und multiplizieren mit (-1), so erhalten wir die \hl{Steigung der Budgetgeraden}
+    \newpage
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.5\linewidth]{/Users/lenavo/Desktop/3.Semester/Mikroökonomie/img/optnachf.png}
+        \caption{Steigung der Budgetgeraden}
+        \label{fig:enter-label}
+    \end{figure}
 
+    \item linke Seite des Ausrucks ist die \textbf{Grenzrate der Substitution}, welche das \hl{Austauschverhältnis} zwischen den Gütern beschreibt, bei dem der Konsument auf einem \hl{konstanten Nutzenniveau} bleibt
+    \item rechte Seite: Verhältnis der Preise, also \textbf{Steigung der Budgetgeraden} 
+\end{itemize}
+\textbf{Beispiel:}
+Wenn für ein suboptimales Güterbündel gilt:
+\[
+    MRS(x_1',x_2') > \frac{p_1}{p_2}
+\]
+\begin{itemize}
+    \item dann ist der relative Grenznutzen von Gut 1 \textbf{höher als das Preisverhältnis} 
+    \item Konsument würde in dem Fall \textbf{mehr von Gut 1} konsumieren wollen und weniger von Gut 2, da er mit dem aktuellen Konsumplan nicht seinen maximalen Nutzen erreicht
+    \item der \hl{Langrage-Multiplikator} $\mathcal{L}$, auch als \textbf{Schattenpreis} des Einkommens bezeichnet, gibt den \hl{zusätzlichen Nutzen} an, den ein Konsument durch eine \hl{marginale Erhöhung} seines Einkommens erzielen würde 
+\end{itemize}
+\textbf{Beispiel: Cobb-Douglas}
+\begin{itemize}
+    \item Nehmen wir Cobb-Douglas Präferenzen an, also:
+    \[
+        u(x_1,x_2) = x_1^\alpha x_2^{1- \alpha}   \qquad \text{mit} \quad a \in (0,1)
+    \]
+
+    \item um die optimale Nachfrage nach den Gütern $x_1$ und $x_2$ zu bestimmen, kann man die \hl{Langrage-Methode} verwenden oder direkt die bekannten \hl{Nachfragefunktionen ableiten}
+\end{itemize}
+\hl{Schritt 1: Lagrange-Funktion aufstellen}
+\[
+    \mathcal{L}(x_1,x_2) = x_1^\alpha \cdot x_2^{1- \alpha} + \lambda (m - p_1 x_1 - p_2 x_2)
+\]  
+Erinnerung: $\lambda$ stellt Schattenpreis dar\\[2mm]
+\hl{Schritt 2: Erste Ordnung Bedingungen (FOCS)}\\[1.5mm]
+Wir leiten nach $x_1$, $x_2$ und $\lambda$ ab und setzen die Ableitungen gleich 0 \\[1.5mm]
+\textbf{Ableitung nach $x_1$:}
+\[
+    \frac{\delta \mathcal{L}}{\delta x_1} = \alpha x_1^{\alpha -1}x_2^{1- \alpha} - \lambda p_1 = 0
+\]
+
+\noindent\textbf{Ableitung nach $x_2$:}
+\[
+    \frac{\delta \mathcal{L}}{\delta x_2} = (1 - \alpha) x_1^\alpha x_2^{- \alpha} - \lambda p_2 = 0
+\]
+\textbf{Ableitung nach $\lambda$:}
+\[
+    \frac{\delta \mathcal{L}}{\delta \lambda} = m - p_1 x_1 - p_2 x_2 = 0
+\]
+
+\noindent\hl{Schritt 3: Verhältnis der Grenznutzen}\\[1.5mm]
+Um die optimale Nachfrage zu bestimmen, dividieren wir die erste Bedinung durch die zweite
+\[
+    \frac{ax_1^{\alpha - 1} x_2^{\alpha -1}}{(1 - \alpha) x_1^\alpha x_2^{- \alpha}} = \frac{\lambda p_1}{\lambda p_2}
+\] 
+
+\[
+    \frac{\alpha}{(1 - \alpha)} \cdot \frac{x_2}{x_1} = \frac{p_1}{p_2}
+\]
+Nach Umstellen:
+\[
+    x_2^* = \frac{(1 - \alpha)}{\alpha} \cdot \frac{p_1}{p_2} \cdot x_1^*
+\]
+\hl{Schritt 4: Einsetzen in die Budgetgleichung}\\[1.5mm]
+Nun setzen wir diese Beziehung in die Budgetbeschränkung ein.
+\[
+    m = p_1 x_1^* + p_2 x_2^*
+\]
+Setzen wir den Ausdruck für $x_2^*$ in diese Gleichung ein:
+\[
+    m = p_1 x_1^* + p_2 (\frac{(1- \alpha)}\alpha{} \cdot \frac{p_1}{p_2} x_1^*)
+\]
+\begin{itemize}
+    \item mit Cobb-Douglas Präferenzen gibt man einen konstanten Teil $\alpha$ für Gut 1 und den Rest für Gut 2 aus
+\end{itemize}
+\subsection{Eigenschaften der individuellen Nachfrage}
+\subsubsection{Einkommens-Expansionspfade, Engel-Kurven und Gütertypen}
+\textbf{Einkommens-Expansionspfad}
+\begin{itemize}
+    \item zeigt, wie sich die \hl{optimale Konsummenge} zweier Güter verändert, wenn das \hl{Einkommen zunimmt}, während die \hl{Preise der Güter konstant} bleiben
+    \item \textbf{normale Güter:} Einkommens-Expansionspfad hat eine \hl{positive Steigung} $\rightarrow$ bedeutet, dass mit steigendem Einkommen mehr von beiden Gütern konsumiert wird
+    \item \textbf{inferiore Güter:} Einkommens-Expansionspfad kann \hl{"gewunden"} sein, d.h. nach einer \textbf{anfänglichen Steigung} könnte er \textbf{abfallen}
+    \begin{itemize}
+        \item ab einem \textbf{bestimmten Einkommensniveau} wird \hl{weniger von dem inferioren Gut} konsumiert, da der Konsument auf \hl{höherwertige Alternativen} umsteigt
+    \end{itemize}
+\end{itemize}
+
+\noindent\textbf{Engel-Kurve}
+\begin{itemize}
+    \item stellt Beziehung zwischen dem Einkommen und der nachgefragten Menge eines Gutes dar
+    \item hat für \textbf{normale Güter} eine \hl{positive Steigung} $\rightarrow$ Nachfrage nach Gut nimmt mit steigendem Einkommen zu
+    \item \textbf{inferiore Güter:} Engel-Kurve hat eine \hl{negative Steigung ab einem bestimmten Einkommensniveau} $\rightarrow$ Nachfrage nach dem Gut nimmt ab, wenn das Einkommen weiter steigt
+    \begin{itemize}
+        \item tritt häufig bei \textbf{niedrigpreisigen oder qualitativ minderwertigen} Produkten auf, die durch höherwertige Alternativen ersetzt werden
+    \end{itemize}
+\end{itemize}
+
+\begin{definitionbox}
+    \textbf{Inferiores Gut:} Ein Gut, dessen Nachfrage bei steigendem Einkommen sinkt (z.B Instantnudeln, gebrauchte Kleidung)\\[2mm]
+    \textbf{Notwendiges Gut:} Ein Gut, dessen Nachfrage mit steigendem Einkommen zunimmt, aber langsamer als das Einkommen selbst (z.B. Grundnahrungsmittel)\\[2mm]
+    \textbf{Luxusgut:} Ein Gut, dessen Nachfrage schneller als das Einkommen steigt (z.B. teure Autos oder Schmuck)
+\end{definitionbox}
+\newpage
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\linewidth]{/Users/lenavo/Desktop/3.Semester/Mikroökonomie/img/engelskurve.png}
+    \caption{}
+    \label{fig:enter-label}
+\end{figure}
+\subsubsection{Die Slutsky-Zerlegung}
+\begin{itemize}
+    \item teilt die Auswirkungen einer Preisänderung auf die Nachfrage nach einem Gut in zwei Komponenten auf
+    \item Giffen-Gut $\rightarrow$ optimale Nachfrage nach einem Gut geht zurück, wenn sein Preis fällt
+    \begin{itemize}
+        \item Einkommenseffekt ist so stark, dass er den Substitutionseffekt überkompensiert
+    \end{itemize}
+\end{itemize}
+Preissteigerung hat immer zwei Effekte:
+\begin{enumerate}
+    \item \textbf{Substitutionseffekt}
+    \begin{itemize}
+        \item beschreibt, wie sich die Nachfrage ändert, wenn der \hl{relative Preis eines Gutes steigt}, während das \hl{reale Einkommen konstant bleibt}
+        \item Substitutionseffekt: die Nachfrageänderung aufgrund der Änderung des Tauschverhältnisses
+    \end{itemize}
+
+
+    \item \textbf{Einkommenseffekt}
+    \begin{itemize}
+        \item Nachfrageänderung aufgrund \hl{gestiegener Kaufkraft}
+    \end{itemize}
+\end{enumerate}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.6\linewidth]{/Users/lenavo/Desktop/3.Semester/Mikroökonomie/img/slutzky.png}
+    \caption{Slutzky-Identität}
+    \label{fig:enter-label}
+\end{figure}
 
 \end{document}
